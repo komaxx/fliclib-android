@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/fliclib/FlicLib.iml" filepath="$PROJECT_DIR$/fliclib/FlicLib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FlicLibProj.iml" filepath="$PROJECT_DIR$/FlicLibProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fliclib-android.iml" filepath="$PROJECT_DIR$/.idea/modules/fliclib-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fliclib/fliclib-android.fliclib.iml" filepath="$PROJECT_DIR$/.idea/modules/fliclib/fliclib-android.fliclib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fliclib/fliclib-android.fliclib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/fliclib/fliclib-android.fliclib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fliclib/fliclib-android.fliclib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fliclib/fliclib-android.fliclib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fliclib/fliclib-android.fliclib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/fliclib/fliclib-android.fliclib.unitTest.iml" />
     </modules>
   </component>
 </project>
