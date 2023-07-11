@@ -26,3 +26,17 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.1.1'
 }
+
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.github.komaxx'
+            artifactId = 'fliclib'
+            version = '0.1.1'
+
+            afterEvaluate {
+                from components.release
+            }
+        }
+    }
+}
