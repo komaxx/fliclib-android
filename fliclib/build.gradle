@@ -1,4 +1,8 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+
+group = 'com.github.komaxx'
+version = '0.1'
 
 android {
     compileSdkVersion 22
