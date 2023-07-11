@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
+apply plugin: 'maven-publish'
 
 group = 'com.github.komaxx'
 version = '0.1'
@@ -9,7 +9,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
@@ -27,15 +27,15 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.1.1'
 }
 
-publishing {
-    publications {
-        release(MavenPublication) {
-            groupId = 'com.github.komaxx'
-            artifactId = 'fliclib'
-            version = '0.1.1'
-
-            afterEvaluate {
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
                 from components.release
+                groupId = 'com.github.komaxx'
+                artifactId = 'fliclib'
+                version = '1.0'
             }
         }
     }
